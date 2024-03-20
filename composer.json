@@ -11,6 +11,7 @@
   ],
   "require": {
     "doctrine/orm": "*",
+    "doctrine/dbal": "*",
     "symfony/cache": "*"
   },
   "autoload": {

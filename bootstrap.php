@@ -6,8 +6,8 @@ use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
 
-$paths = ['/path/to/entity-files'];
-$isDevMode = false;
+$paths = ['./src/Entity'];
+$isDevMode = true;
 
 // the connection configuration
 $dbParams = [
